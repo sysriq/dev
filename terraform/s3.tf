@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "example" {
-  bucket = "dinhtruong98" #update your account here
+  bucket = "qa-dinhtruong98-s3" #update your account here
   tags = {
     Name        = "My bucket"
     Environment = "Dev"
