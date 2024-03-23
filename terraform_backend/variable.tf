@@ -5,4 +5,5 @@ variable "aws_region" {
 
 variable "your_account" {
   type = string
+  default = "dinhtruong98"
 }
